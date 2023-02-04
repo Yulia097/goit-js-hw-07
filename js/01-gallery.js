@@ -36,6 +36,4 @@ function onGalleryClick(event) {
     <img src="${event.target.dataset.source}" width="800" height="600">
 `);
   onShow: (instance) => {}, instance.show();
-  // onClose: (instance) => {};
-  // instance.close();
 }
