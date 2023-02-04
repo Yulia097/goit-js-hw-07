@@ -1,7 +1,6 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 const galleryList = document.querySelector('.gallery');
-console.log(galleryList);
 
 const cardsMarkup = listOfItems(galleryItems);
 

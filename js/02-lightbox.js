@@ -1,12 +1,10 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 const galleryList = document.querySelector('.gallery');
-console.log(galleryList);
 
 const cardsMarkup = listOfItems(galleryItems);
 
 galleryList.insertAdjacentHTML('beforeend', cardsMarkup);
-// galleryList.addEventListener('click', onGalleryClick);
 
 function listOfItems(galleryItems) {
   return galleryItems
